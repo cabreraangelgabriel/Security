@@ -1,0 +1,145 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /**10px = 1rem**/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.headerImage {
+    background-image: url(../img/he2.jpg);
+    max-width: 1600px;
+    width: 100%;
+    background-image: cover;
+    background-position: center center;
+}
+
+@media (min-width: 768px) {
+    .headerImage {
+        max-width: 100%;
+    }
+}
+
+.titlepower h1 {
+    font-size: 6rem;
+    color: white;
+    text-shadow: 1px 2px 2px black, 1px 2px 2px black
+}
+
+.subtitlepower h2 {
+    font-size: 4rem;
+    color: white;
+    text-shadow: 1px 2px 2px black, 1px 2px 2px black
+}
+
+.tersubtitlepower h3 {
+    font-size: 2rem;
+    color: white;
+    padding-top: 2rem;
+    margin-top: 1rem;
+    text-shadow: 1px 2px 2px black, 1px 2px 2px black
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.headerTitle {
+    text-align: center;
+}
+
+nav {
+    align-items: center;
+}
+
+.nave a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3rem;
+    color: white;
+}
+
+.nave a:hover {
+    background-color: #0A1747;
+    border-radius: 3px;
+}
+
+.nave a:last-of-type {
+    padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .nave a {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 2rem;
+        width: 23%;
+        padding-bottom: 5px;
+    }
+    .nave a:last-of-type {
+        padding-bottom: unset;
+    }
+}
+
+.imgs {
+    height: auto;
+    width: 400px;
+}
+
+@media (min-width: 768px) {
+    .imgs {
+        display: flex;
+        flex-basis: 100%;
+    }
+}
+
+.titulo-imagen {
+    background-color: #0A1747;
+    border-radius: 3px;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.subtitulo-imagen {
+    font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .lg {
+        display: flex;
+        flex-basis: 40%;
+    }
+    .text-center {
+        text-align: center;
+    }
+}
+
+.footer {
+    color: #ffffff;
+    background-color: #0A1747;
+    border-radius: 5px;
+}
+
+i {
+    padding: 2rem;
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.redes {
+    text-align: center;
+}
